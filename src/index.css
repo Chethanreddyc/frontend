@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-light-green {
+    background-color: #C6F4D6; /* Light matte green */
+  }
