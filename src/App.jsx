@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import Pharmacy from './pages/Pharmacy';
 import Footer from './assets/Footer';
 import Contact from './assets/Contact';
-import UsersList from './UserList';
 import Signup from './pages/Signup';
 import { useState } from 'react';
 
@@ -35,7 +34,6 @@ function App() {
         </Routes>
       ) : (
         <div>
-          <UsersList/>
           <Navbar onSignOut={handleSignOut} />
           <Contact /> 
           <Routes>

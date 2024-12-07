@@ -30,13 +30,12 @@ const doctors = [
     rating: 4.7,
   },
   {
-    id: 3,
+    id: 4,
     name: 'Dr. Arjun  ',
     specialty: 'Pulmonologist',
     image: 'https://th.bing.com/th/id/OIP.Yiu73mJb23PW8EXKySiDLQHaK5?w=121&h=181&c=7&r=0&o=5&dpr=2&pid=1.7',
-    rating: 4.7,
+    rating: 4.9,
   },
-  // Add more doctors as needed
 ];
 
 export default function Doctors() {
